@@ -6,4 +6,3 @@ Feature: Os cinco modelos de perfis validar sucesso e insucesso de login e recup
     And clico e insiro "senha123" no campo senha na tela inicial
     When clico em acessar
     Then acesso com sucesso a plataforma
-    And clico no incone log-out para sair com sucesso da plataforma
