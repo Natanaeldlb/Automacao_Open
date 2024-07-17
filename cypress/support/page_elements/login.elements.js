@@ -1,6 +1,6 @@
 export default class LoginElements {
   emailInput() {
-    return '[data-cy="iptEmail"]'
+    return '[formcontrolname="email"]'
   }
 
   passwordInput() {

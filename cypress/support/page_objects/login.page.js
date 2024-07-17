@@ -7,12 +7,12 @@ export default class LoginPage {
     cy.visit('http://ec2-3-84-19-116.compute-1.amazonaws.com/auth/login');
   }
 
-  setEmailInput() {
-    cy.get(loginElements.emailInput()).clear().type('diego.batina@opencircle.com.br')
+  setEmailInput(email) {
+    cy.get(loginElements.emailInput()).clear().type(email)
   }
 
-  setPasswordInput() {
-    cy.get(loginElements.passwordInput()).clear().type('senha123!')
+  setPasswordInput(password) {
+    cy.get(loginElements.passwordInput()).clear().type(password)
   }
 
   clickContinueButton() {

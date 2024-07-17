@@ -9,12 +9,12 @@ Given('que acesso a tela de login com sucesso', () => {
   loginPage.visitPage();
 });
 
-And('clico e insiro "<Usuario>" no campo nome na tela inicial', () => {
-  loginPage.setEmailInput()
+And('clico e insiro {string} no campo nome na tela inicial', (email) => {
+  loginPage.setEmailInput(email)
 });
 
-And('clico e insiro "senha123" no campo senha na tela inicial', () => {
-  loginPage.setPasswordInput();
+And('clico e insiro {string} no campo senha na tela inicial', (password) => {
+  loginPage.setPasswordInput(password);
 });
 
 When('clico em acessar', () => {
