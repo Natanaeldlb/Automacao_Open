@@ -1,2 +1,29 @@
-# agazeta-auto-test-suite
-Este repositório é dedicado ao desenvolvimento e implementação de uma suíte de testes automatizados abrangente, destinada a garantir a qualidade e a estabilidade de vários portais digitais. O objetivo principal é criar testes robustos que possam validar funcionalidades, integrar sistemas e detectar falhas precocemente no ciclo de desenvolvimento.
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
