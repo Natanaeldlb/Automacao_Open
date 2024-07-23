@@ -1,13 +1,16 @@
+
 export default class LoginElements {
   emailInput() {
-    return '[formcontrolname="email"]'
+    return '[data-cy="ipt-email"]'
   }
-
   passwordInput() {
-    return '[formcontrolname="password"]'
+    return '[data-cy="ipt-password"]'
+  }
+  continueButton() {
+    return '[data-cy="btn-login"]'
+  }
+  resetButton(){
+    return '[data-cy="btn-reset-password"]'
   }
 
-  continueButton() {
-    return '[type="submit"]'
-  }
 }

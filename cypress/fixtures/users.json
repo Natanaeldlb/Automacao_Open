@@ -1,0 +1,40 @@
+{
+  "personas": {
+    "ESCOLA": {
+      "username": "escola@email.com.br",
+      "password": "senha123!"
+    },
+    "REGIONAL": {
+      "username": "regional@email.com.br",
+      "password": "senha123!"
+    },
+    "SECRETARIA": {
+      "username": "secretaria@email.com.br",
+      "password": "senha123!"
+    },
+    "ESCOLAAPOIO": {
+      "username": "apoio_escola@email.com.br",
+      "password": "senha123!"
+    },
+    "REGIONALAPOIO": {
+      "username": "apoio_regional@email.com.br",
+      "password": "senha123!"
+    },
+    "SECRETARIAAPOIO": {
+      "username":"apoio_secretaria@email.com.br",
+      "password":"senha123!"
+    },
+    "SECRETARIAADM": {
+      "username":"admin_secretaria@email.com.br",
+      "password":"senha123!"
+    },
+    "APOIOADM": {
+      "username":"admin_apoio@email.com.br",
+      "password":"senha123!"
+    },
+    "USERFAIL": {
+      "username":"userfail@email.com.br",
+      "password":"senhafail!"
+    }
+  }
+}
