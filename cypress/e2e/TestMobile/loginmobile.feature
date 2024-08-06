@@ -98,5 +98,6 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     When clico em acessar
     Then acesso com sucesso a plataforma
 
-# A desenvolver
+#A desenvolver
   Scenario: 06 - Usuario acessa pela primeira vez a plataforma por Email
+
