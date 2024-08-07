@@ -1,3 +1,4 @@
+#OK
 
 Feature: As oito personas validar sucesso e insucesso de login e recuperacao de senha na plataforma como mobile
 
@@ -73,7 +74,6 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     When clico em acessar
     Then vejo a mensagem de NAO AUTORIZADO
 
-#BUG RDA-152
   Scenario: 03 - Usuario redefinir senha com sucesso
     Given que acesso a tela de login com sucesso com mobile
     When visualizo e clico em REDEFINIR SENHA

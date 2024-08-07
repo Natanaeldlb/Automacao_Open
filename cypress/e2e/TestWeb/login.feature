@@ -1,5 +1,6 @@
+#OK
 
-Feature: As oito personas validar sucesso e insucesso de login e recuperacao de senha na plataforma
+Feature: As oito personas validar sucesso e insucesso de login e recuperacao de senha na plataforma como web
 
   Scenario: 01.1 - Usuario acessar com sucesso a plataforma e fazer logout
     Given que acesso a tela de login com sucesso
@@ -8,7 +9,6 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     When clico em acessar
     Then acesso com sucesso a plataforma
     And clico no incone logout para sair com sucesso da plataforma
-
 
   Scenario: 01.2 - Usuario acessar com sucesso a plataforma e fazer logout
     Given que acesso a tela de login com sucesso
@@ -97,4 +97,5 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     When clico em acessar
     Then acesso com sucesso a plataforma
 
+#A desenvolver
   Scenario: 06 - Usuario acessa pela primeira vez a plataforma por Email

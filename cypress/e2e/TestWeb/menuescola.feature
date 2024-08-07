@@ -1,8 +1,6 @@
 #OK
 
-
 Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro do menu como web
-
 
 #---------------------------------------AVALIAÇÕES DIAGNÓSTICAS-----------------------------------------#
 #----------------------------------------PARAMETRO PATICIPAÇOES-----------------------------------------#
@@ -39,7 +37,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 0 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em RESULTADOS GERAIS
     And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
@@ -48,7 +46,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo PERCENTUAL MEDIO DE ACERTOS SERIES
     And visualizo PERCENTUAL MEDIO DE ACERTOS TURMAS
 #-------------------------------------------PARAMETRO DESCRITORES----------------------------------------#
-  Scenario: 04 - Validacao de FILTROS dentro do parametro DESCRITORES
+  Scenario: 05 - Validacao de FILTROS dentro do parametro DESCRITORES
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em DESCRITORES
     When visualizo e clico em FILTROS no canto superior direito
@@ -61,14 +59,14 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 0 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em DESCRITORES
     And visualizo atabela AVALIACAO
     And visualizo PERCENTUAL MEDIO DE ACERTOS TURMAS
     And visualizo PERCENTUAL MEDIO DE ACERTOS ESTUDANTES
 #--------------------------------------PARAMETRO LISTA DE ESTUDANTES------------------------------------#
-  Scenario: 05 - Validacao de FILTROS dentro do parametro LISTA DE ESTUDANTES
+  Scenario: 07 - Validacao de FILTROS dentro do parametro LISTA DE ESTUDANTES
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em LISTA DE ESTUDANTES
     When visualizo e clico em FILTROS no canto superior direito
@@ -81,7 +79,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 0 - Validacao parametro LISTA DE ESTUDANTES e suas extensoes
+  Scenario: 08 - Validacao parametro LISTA DE ESTUDANTES e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em LISTA DE ESTUDANTES
     And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
@@ -89,7 +87,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo e clico em DETALHES AREA DE CONHECIMENTO
     And visualizo e clico em DETALHES CODIGO DA HABILIDADE
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: 06 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: 09 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em HISTORICO
     When visualizo e clico em FILTROS no canto superior direito
@@ -102,7 +100,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 0 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: 10 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em HISTORICO
     And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE APLICACAO
@@ -112,14 +110,14 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-------------------------------------PARAMETRO CRIAR/EDITAR AÇÕES--------------------------------------#
-  Scenario: 0 - Validacao parametro CRIAR EDITAR ACOES e suas extensoes
+  Scenario: 11 - Validacao parametro CRIAR EDITAR ACOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em CRIAR EDITAR ACOES
     And visualizo e valido campos em ETAPA 1 DE 2 PUBLICO ALVO
     And visualizo e valido campos em ETAPA 2 DE 2 PUBLICO ALVO
 
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: 07 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: 12 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em ACOMPANHAR
     When visualizo e clico em FILTROS no canto superior direito
@@ -132,7 +130,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 0 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: 13 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em ACOMPANHAR
     And visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA ESCOLA
@@ -141,12 +139,12 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And visualizo e clico em DETALHES VISAO POR HABILIDADE
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: 0 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: 14 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em MATERIAIS DE APOIO
     And visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: 0 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: 15 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And visualizo e clico em MATERIAIS DE APOIO
     And visualizo e clico em METODOLOGIAS

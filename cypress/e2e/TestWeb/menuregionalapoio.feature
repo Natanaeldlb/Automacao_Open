@@ -79,7 +79,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
 
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: 09 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: 07 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como web
     And visualizo e clico em HISTORICO
     When visualizo e clico em FILTROS no canto superior direito
@@ -95,7 +95,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 10 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: 08 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como web
     And visualizo e clico em HISTORICO
     And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE APLICACAO
@@ -105,8 +105,8 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: 12 - Validacao de FILTROS dentro do parametro ACOMPANHAR
-    Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
+  Scenario: 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+    Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como web
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
     When visualizo e clico em FILTROS no canto superior direito
@@ -119,8 +119,8 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And visualizo LIMPAR FILTROS
     Then visualizo APLICAR FILTROS
 
-  Scenario: 13 - Validacao parametro ACOMPANHAR e suas extensoes
-    Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
+  Scenario: 10 - Validacao parametro ACOMPANHAR e suas extensoes
+    Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como web
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
     And visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA REGIONAL
@@ -128,14 +128,14 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And visualizO DETALHES
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: 14 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
-    Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
+  Scenario: 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+    Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como web
     And visualizo e clico em PLANOS
     And visualizo e clico em MATERIAIS DE APOIO
     And visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: 15 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
-    Given que acesso com sucesso a plataforma em persona ESCOLA APOIO como mobile
+  Scenario: 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+    Given que acesso com sucesso a plataforma em persona ESCOLA APOIO como web
     And visualizo e clico em PLANOS
     And visualizo e clico em MATERIAIS DE APOIO
     And visualizo e clico em METODOLOGIAS
