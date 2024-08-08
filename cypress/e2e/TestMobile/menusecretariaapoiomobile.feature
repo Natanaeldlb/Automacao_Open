@@ -4,154 +4,154 @@ Feature: Interecao e navegabilidade com persona Secretaria Apoio em seu menu com
 
 #---------------------------------------AVALIAÇÕES DIAGNÓSTICAS-----------------------------------------#
 #----------------------------------------PARAMETRO PATICIPAÇOES-----------------------------------------#
-  Scenario: 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
+  Scenario: M0038 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
     When visualizo e clico em FILTROS no canto superior direito
-    And visualizo REGIONAL
-    And visualizo MUNICIPIO
-    And visualizo ESCOLA
-    And visualizo MODALIDADE
-    And visualizo ETAPA
-    And visualizo SERIE
-    And visualizo AREA DE CONHECIMENTO
-    And visualizo COMPONENTE CURRICULAR
-    And visualizo ANO
-    And visualizo LIMPAR FILTROS
-    Then visualizo APLICAR FILTROS
+    And M0038 visualizo REGIONAL
+    And M0038 visualizo MUNICIPIO
+    And M0038 visualizo ESCOLA
+    And M0038 visualizo MODALIDADE
+    And M0038 visualizo ETAPA
+    And M0038 visualizo SERIE
+    And M0038 visualizo AREA DE CONHECIMENTO
+    And M0038 visualizo COMPONENTE CURRICULAR
+    And M0038 visualizo ANO
+    And M0038 visualizo LIMPAR FILTROS
+    Then M0038 visualizo APLICAR FILTROS
 
-  Scenario: 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
+  Scenario: M0038 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
-    And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
-    And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ETAPA
-    And visualizo PERCENTUAL DE ESCOLAS PARTICIPANTES
-    And visualizo e clico em DETALHES REGIONAIS
-    And visualizo e clico em DETALHES ESCOLAS
+    And M0038 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
+    And M0038 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ETAPA
+    And M0038 visualizo PERCENTUAL DE ESCOLAS PARTICIPANTES
+    And M0038 visualizo e clico em DETALHES REGIONAIS
+    And M0038 visualizo e clico em DETALHES ESCOLAS
 
 #----------------------------------------PARAMETRO RESULTADOS GERAIS-------------------------------------#
-  Scenario: 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
+  Scenario: M0039 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
     When visualizo e clico em FILTROS no canto superior direito
-    And visualizo REGIONAL
-    And visualizo MUNICIPIO
-    And visualizo ESCOLA
-    And visualizo MODALIDADE
-    And visualizo ETAPA
-    And visualizo SERIE
-    And visualizo AREA DE CONHECIMENTO
-    And visualizo COMPONENTE CURRICULAR
-    And visualizo ANO
-    And visualizo AVALIAÇAO
-    And visualizo LIMPAR FILTROS
-    Then visualizo APLICAR FILTROS
+    And M0039 visualizo REGIONAL
+    And M0039 visualizo MUNICIPIO
+    And M0039 visualizo ESCOLA
+    And M0039 visualizo MODALIDADE
+    And M0039 visualizo ETAPA
+    And M0039 visualizo SERIE
+    And M0039 visualizo AREA DE CONHECIMENTO
+    And M0039 visualizo COMPONENTE CURRICULAR
+    And M0039 visualizo ANO
+    And M0039 visualizo AVALIAÇAO
+    And M0039 visualizo LIMPAR FILTROS
+    Then M0039 visualizo APLICAR FILTROS
 
-  Scenario: 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0039 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
-    And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
-    And visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR QUANTIL DE DESEMPENHO
-    And visualizo PERCENTUAL MEDIO DE ACERTOS REGIONAIS
-    And visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
-    And visualizo PERCENTUAL MEDIO DE ACERTOS ETAPAS
-    And visualizo PERCENTUAL MEDIO DE ACERTOS SERIES
+    And M0039 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
+    And M0039 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR QUANTIL DE DESEMPENHO
+    And M0039 visualizo PERCENTUAL MEDIO DE ACERTOS REGIONAIS
+    And M0039 visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
+    And M0039 visualizo PERCENTUAL MEDIO DE ACERTOS ETAPAS
+    And M0039 visualizo PERCENTUAL MEDIO DE ACERTOS SERIES
 
 #-------------------------------------------PARAMETRO DESCRITORES----------------------------------------#
-  Scenario: 05 - Validacao de FILTROS dentro do parametro DESCRITORES
+  Scenario: M0040 05 - Validacao de FILTROS dentro do parametro DESCRITORES
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
     When visualizo e clico em FILTROS no canto superior direito
-    And visualizo REGIONAL
-    And visualizo MUNICIPIO
-    And visualizo ESCOLA
-    And visualizo MODALIDADE
-    And visualizo ETAPA
-    And visualizo SERIE
-    And visualizo AREA DE CONHECIMENTO
-    And visualizo COMPONENTE CURRICULAR
-    And visualizo ANO
-    And visualizo AVALIAÇAO
-    And visualizo LIMPAR FILTROS
-    Then visualizo APLICAR FILTROS
+    And M0040 visualizo REGIONAL
+    And M0040 visualizo MUNICIPIO
+    And M0040 visualizo ESCOLA
+    And M0040 visualizo MODALIDADE
+    And M0040 visualizo ETAPA
+    And M0040 visualizo SERIE
+    And M0040 visualizo AREA DE CONHECIMENTO
+    And M0040 visualizo COMPONENTE CURRICULAR
+    And M0040 visualizo ANO
+    And M0040 visualizo AVALIAÇAO
+    And M0040 visualizo LIMPAR FILTROS
+    Then M0040 visualizo APLICAR FILTROS
 
-  Scenario: 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0040 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
-    And visualizo atabela AVALIACAO
-    And visualizo PERCENTUAL MEDIO DE ACERTOS REGIONAIS
-    And visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
-    And visualizo PERCENTUAL MEDIO DE ACERTOS ETAPAS
+    And M0040 visualizo atabela AVALIACAO
+    And M0040 visualizo PERCENTUAL MEDIO DE ACERTOS REGIONAIS
+    And M0040 visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
+    And M0040 visualizo PERCENTUAL MEDIO DE ACERTOS ETAPAS
 
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: 07 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: M0041 07 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
     When visualizo e clico em FILTROS no canto superior direito
-    And visualizo REGIONAL
-    And visualizo MUNICIPIO
-    And visualizo ESCOLA
-    And visualizo MODALIDADE
-    And visualizo ETAPA
-    And visualizo SERIE
-    And visualizo AREA DE CONHECIMENTO
-    And visualizo COMPONENTE CURRICULAR
-    And visualizo ANO
-    And visualizo AVALIAÇAO
-    And visualizo LIMPAR FILTROS
-    Then visualizo APLICAR FILTROS
+    And M0041 visualizo REGIONAL
+    And M0041 visualizo MUNICIPIO
+    And M0041 visualizo ESCOLA
+    And M0041 visualizo MODALIDADE
+    And M0041 visualizo ETAPA
+    And M0041 visualizo SERIE
+    And M0041 visualizo AREA DE CONHECIMENTO
+    And M0041 visualizo COMPONENTE CURRICULAR
+    And M0041 visualizo ANO
+    And M0041 visualizo AVALIAÇAO
+    And M0041 visualizo LIMPAR FILTROS
+    Then M0041 visualizo APLICAR FILTROS
 
-  Scenario: 08 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: M0041 08 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA ADM como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
-    And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE APLICACAO
-    And visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR QUANTIL DE DESEMPENHO
-    And visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR ANO DE APLICACAO
-    And visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE REALIZACAO
+    And M0041 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE APLICACAO
+    And M0041 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR QUANTIL DE DESEMPENHO
+    And M0041 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR ANO DE APLICACAO
+    And M0041 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE REALIZACAO
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: M0042 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona SECRETARIA ADM como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
     When visualizo e clico em FILTROS no canto superior direito
-    And visualizo REGIONAL
-    And visualizo ESCOLA
-    And visualizo SITUACAO
-    And visualizo ETAPA
-    And visualizo ANO
-    And visualizo AREA
-    And visualizo COMPONENTE
-    And visualizo LIMPAR FILTROS
-    Then visualizo APLICAR FILTROS
+    And M0042 visualizo REGIONAL
+    And M0042 visualizo ESCOLA
+    And M0042 visualizo SITUACAO
+    And M0042 visualizo ETAPA
+    And M0042 visualizo ANO
+    And M0042 visualizo AREA
+    And M0042 visualizo COMPONENTE
+    And M0042 visualizo LIMPAR FILTROS
+    Then M0042 visualizo APLICAR FILTROS
 
-  Scenario: 10 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: M0042 10 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA ADM como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
-    And visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA SECRETARIA
-    And visualizo SITUACAO GERAL DA ESCOLA POR AREA DE CONHECIMENTO
-    And visualizo e clico em DETALHES VISAO MACRO
-    And visualizo e clico em DETALHES VISAO POR ESCOLA
+    And M0042 visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA SECRETARIA
+    And M0042 visualizo SITUACAO GERAL DA ESCOLA POR AREA DE CONHECIMENTO
+    And M0042 visualizo e clico em DETALHES VISAO MACRO
+    And M0042 visualizo e clico em DETALHES VISAO POR ESCOLA
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: M0043 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona SECRETARIA ADM como mobile
     And visualizo e clico em PLANOS
-    And visualizo e clico em MATERIAIS DE APOIO
-    And visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
+    And M0043 visualizo e clico em MATERIAIS DE APOIO
+    And M0043 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: M0043 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em PLANOS
-    And visualizo e clico em MATERIAIS DE APOIO
-    And visualizo e clico em METODOLOGIAS
+    And M0043 visualizo e clico em MATERIAIS DE APOIO
+    And M0043 visualizo e clico em METODOLOGIAS
