@@ -8,10 +8,13 @@ export default class ResetPasswordPage {
         cy.get(resetPasswordElements.resetButton()).click({force: true});
     }
     retornmsgnotfound() {
-        cy.get('#mat-mdc-error-0')
+        cy.get(resetPasswordElements.retornmsgnotfound()).click({force: true});
     }
-    validateResetScreen() {
-        cy.get('.text-3xl\\!important');
+    validateResetScreen(){
+        cy.get(resetPasswordElements.validResetScreen()).click({force: true})
+    }
+    buttonContinueReset() {
+        cy.get(resetPasswordElements.buttonContinueReset()).click({force: true});
     }
 
 }

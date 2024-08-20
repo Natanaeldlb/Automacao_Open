@@ -17,13 +17,13 @@ export default class LoginPage {
     cy.get(loginElements.continueButton()).click({force: true})
   }
   confirmHomeScreen() {
-    cy.get('.lg\\:hidden > .py-5 > [aria-label="Menu"]');
+    cy.get(loginElements.screenHome()).click({force: true});
   }
   logoutClick() {
-    cy.get('.hidden > .mat-icon');
+    cy.get(loginElements.logoutButton()).click({force: true});
   }
   userNotFound(){
-    cy.get('.lg\\:order-2 > .mdc-button__label');
+    cy.get(loginElements.notFound()).click({force: true});
   }
   clickRedefinirButton() {
     cy.get(loginElements.resetButton()).click({force: true})

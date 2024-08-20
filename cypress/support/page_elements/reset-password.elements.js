@@ -6,7 +6,14 @@ export default class ResetPasswordElements {
   resetButton(){
     return '[data-cy="btn-submit"]'
   }
-  validateResetScreen() {
-    cy.get('.text-3xl\\!important');
+  validResetScreen() {
+    return '[data-cy="btn-submit"]'
   }
+  buttonContinueReset() {
+    return '[data-cy="btn-continue"]'
+  }
+  retornmsgnotfound() {
+    return 'div > mat-error'
+  }
+
 }

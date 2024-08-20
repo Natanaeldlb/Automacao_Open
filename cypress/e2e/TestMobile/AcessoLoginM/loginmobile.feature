@@ -67,7 +67,7 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     And clico no incone logout para sair com sucesso da plataforma
     And clico no incone logout para sair com sucesso da plataforma
 
-  Scenario: 02 - Usuario nao acessar com sucesso a plataforma
+  Scenario: 02 - Usuario acessar com sucesso a plataforma
     Given que acesso a tela de login com sucesso com mobile
     And clico e insiro no campo nome na tela inicial como persona "USERFAIL"
     And clico e insiro no campo senha na tela inicial como persona "USERFAIL"
@@ -80,7 +80,7 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     And sou direcionado a pagina de redefinição de senha
     And preencho o campo Email institucional "teste@email.com.br"
     And visualizo e clico em REDEFINIR SENHA
-    Then tenho sucesso com recebimento de redefinir senha no Email apontado
+    Then tenho sucesso com recebimento de redefinir senha no email apontado
 
   Scenario: 04 - Usuario redefinir senha insucesso
     Given que acesso a tela de login com sucesso com mobile
