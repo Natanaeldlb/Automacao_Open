@@ -7,11 +7,9 @@ const loginPage = new LoginPage();
 Given('que acesso a tela de login com sucesso', () => {
   loginPage.visitPage();
 });
-
-Given(/^que acesso a tela de login com sucesso com mobile$/, function () {
+Given('que acesso a tela de login com sucesso com mobile',  () => {
   loginPage.visitPage(412, 915);
 });
-
 And('clico e insiro no campo nome na tela inicial como persona {string}', (persona) => {
   const userEmail = userFixture.personas[persona].username
   loginPage.setEmailInput(userEmail)
@@ -34,4 +32,7 @@ Then('vejo a mensagem de NAO AUTORIZADO', function () {
 });
 When('visualizo e clico em REDEFINIR SENHA', function () {
   loginPage.clickRedefinirButton();
+});
+Given('visualizo que o botao ACESSAR não esta clicavel',() =>  {
+  loginPage.buttonNotClick();
 });

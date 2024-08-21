@@ -13,13 +13,16 @@ export default class LoginElements {
     return '[data-cy="btn-reset-password"]'
   }
   notFound() {
-    return '//*[@id="mat-snack-bar-container-live-1"]/div/simple-snack-bar/div[2]/button/span[4]'
+    return '.mat-mdc-snack-bar-action > .mat-mdc-button-touch-target'
   }
   logoutButton() {
     return '[data-cy="btn-logout"]'
   }
   screenHome() {
     return '[data-cy="btn-menu"]'
+  }
+  btnNotClick(){
+    return '[data-cy="btn-login"]'
   }
 }
 

@@ -14,6 +14,7 @@ export default class ResetPasswordPage {
         cy.get(resetPasswordElements.validResetScreen()).click({force: true})
     }
     buttonContinueReset() {
+        cy.wait( 2500);
         cy.get(resetPasswordElements.buttonContinueReset()).click({force: true});
     }
 

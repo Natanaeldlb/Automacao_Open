@@ -14,7 +14,7 @@ export default class LoginPage {
     cy.get(loginElements.passwordInput()).clear({force: true}).type(password)
   }
   clickContinueButton() {
-    cy.get(loginElements.continueButton()).click({force: true})
+    cy.get(loginElements.continueButton()).click({force: true});
   }
   confirmHomeScreen() {
     cy.get(loginElements.screenHome()).click({force: true});
@@ -23,10 +23,16 @@ export default class LoginPage {
     cy.get(loginElements.logoutButton()).click({force: true});
   }
   userNotFound(){
+    cy.wait( 2500);
     cy.get(loginElements.notFound()).click({force: true});
   }
   clickRedefinirButton() {
-    cy.get(loginElements.resetButton()).click({force: true})
+    cy.get(loginElements.resetButton()).click({force: true});
   }
+  buttonNotClick() {
+    cy.wait( 2500);
+    cy.get(loginElements.btnNotClick).should('disabled');
+  }
+
 
 }

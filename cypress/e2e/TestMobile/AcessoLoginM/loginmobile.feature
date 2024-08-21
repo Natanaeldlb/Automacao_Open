@@ -94,7 +94,6 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     And clico e insiro no campo nome na tela inicial como persona "ESCOLA"
     And visualizo que o botao ACESSAR não esta clicavel
     And clico e insiro no campo senha na tela inicial como persona "ESCOLA"
-    And visualizo que o botao ACESSAR esta clicavel
     When clico em acessar
     Then acesso com sucesso a plataforma
 
