@@ -16,7 +16,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And W0001 visualizo AVALIAÇAO
     And W0001 visualizo LIMPAR FILTROS
     Then W0001 visualizo APLICAR FILTROS
-
+#aa
   Scenario: W0001 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como web
     And W0001 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR AREA DE CONHECIMENTO
