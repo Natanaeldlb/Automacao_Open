@@ -101,47 +101,47 @@ Feature: Interecao e navegabilidade com persona Secretaria Apoio em seu menu com
     And W0072 visualizo LIMPAR FILTROS
     Then W0072 visualizo APLICAR FILTROS
 
-  Scenario: W0077 08 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: W0073 08 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como web
     And visualizo e clico em HISTORICO
-    And W0077 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE APLICACAO
-    And W0077 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR QUANTIL DE DESEMPENHO
-    And W0077 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR ANO DE APLICACAO
-    And W0077 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE REALIZACAO
+    And W0073 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE APLICACAO
+    And W0073 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR QUANTIL DE DESEMPENHO
+    And W0073 visualizo AVALIZAÇOES DIAGNOSTICAS RESULTADOS POR ANO DE APLICACAO
+    And W0073 visualizo AVALIZAÇOES DIAGNOSTICAS PARTICIPAÇAO POR ANO DE REALIZACAO
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: W0078 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: W0074 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como web
     And visualizo e clico em ACOMPANHAR
     When visualizo e clico em FILTROS no canto superior direito
-    And W0078 visualizo REGIONAL
-    And W0078 visualizo ESCOLA
-    And W0078 visualizo SITUACAO
-    And W0078 visualizo ETAPA
-    And W0078 visualizo ANO
-    And W0078 visualizo AREA
-    And W0078 visualizo COMPONENTE
-    And W0078 visualizo LIMPAR FILTROS
-    Then W0078 visualizo APLICAR FILTROS
+    And W0074 visualizo REGIONAL
+    And W0074 visualizo ESCOLA
+    And W0074 visualizo SITUACAO
+    And W0074 visualizo ETAPA
+    And W0074 visualizo ANO
+    And W0074 visualizo AREA
+    And W0074 visualizo COMPONENTE
+    And W0074 visualizo LIMPAR FILTROS
+    Then W0074 visualizo APLICAR FILTROS
 
-  Scenario: W0079 10 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: W0075 10 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como web
     And visualizo e clico em ACOMPANHAR
-    And W0079 visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA SECRETARIA
-    And W0079 visualizo SITUACAO GERAL DA ESCOLA POR AREA DE CONHECIMENTO
-    And W0079 visualizo e clico em DETALHES VISAO MACRO
-    And W0079 visualizo e clico em DETALHES VISAO POR ESCOLA
+    And W0075 visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA SECRETARIA
+    And W0075 visualizo SITUACAO GERAL DA ESCOLA POR AREA DE CONHECIMENTO
+    And W0075 visualizo e clico em DETALHES VISAO MACRO
+    And W0075 visualizo e clico em DETALHES VISAO POR ESCOLA
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: W0080 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: W0076 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como web
     And visualizo e clico em PLANOS
-    And W0080 visualizo e clico em MATERIAIS DE APOIO
-    And W0080 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
+    And W0076 visualizo e clico em MATERIAIS DE APOIO
+    And W0076 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: W0081 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: W0077 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona SECRETARIA APOIO como web
     And visualizo e clico em PLANOS
-    And W0081 visualizo e clico em MATERIAIS DE APOIO
-    And W0081 visualizo e clico em METODOLOGIAS
+    And W0077 visualizo e clico em MATERIAIS DE APOIO
+    And W0077 visualizo e clico em METODOLOGIAS
