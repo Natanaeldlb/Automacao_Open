@@ -112,37 +112,37 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: M0051 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: M0043 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
     When visualizo e clico em FILTROS no canto superior direito
-    And M0051 visualizo ESCOLA
-    And M0051 visualizo SITUACAO
-    And M0051 visualizo ETAPA
-    And M0051 visualizo ANO
-    And M0051 visualizo AREA
-    And M0051 visualizo COMPONENTE
-    And M0051 visualizo LIMPAR FILTROS
-    Then M0051 visualizo APLICAR FILTROS
+    And M0043 visualizo ESCOLA
+    And M0043 visualizo SITUACAO
+    And M0043 visualizo ETAPA
+    And M0043 visualizo ANO
+    And M0043 visualizo AREA
+    And M0043 visualizo COMPONENTE
+    And M0043 visualizo LIMPAR FILTROS
+    Then M0043 visualizo APLICAR FILTROS
 
-  Scenario: M0052 10 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: M0044 10 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
-    And M0052 visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA REGIONAL
-    And M0052 visualizo SITUACAO GERAL DA ESCOLA POR AREA DE CONHECIMENTO
-    And M0052 visualizO DETALHES
+    And M0044 visualizo PLANO DE RECOMPOSICAO SITUACAO GERAL DA REGIONAL
+    And M0044 visualizo SITUACAO GERAL DA ESCOLA POR AREA DE CONHECIMENTO
+    And M0044 visualizO DETALHES
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: M0053 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: M0045 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
-    And M0053 visualizo e clico em MATERIAIS DE APOIO
-    And M0053 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
+    And M0045 visualizo e clico em MATERIAIS DE APOIO
+    And M0045 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: M0054 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: M0046 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
-    And M0054 visualizo e clico em MATERIAIS DE APOIO
-    And M0054 visualizo e clico em METODOLOGIAS
+    And M0046 visualizo e clico em MATERIAIS DE APOIO
+    And M0046 visualizo e clico em METODOLOGIAS
