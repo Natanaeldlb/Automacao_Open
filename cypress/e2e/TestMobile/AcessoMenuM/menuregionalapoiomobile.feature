@@ -4,7 +4,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
 
 #---------------------------------------AVALIAÇÕES DIAGNÓSTICAS-----------------------------------------#
 #----------------------------------------PARAMETRO PATICIPAÇOES-----------------------------------------#
-  Scenario: M0017 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
+  Scenario: M0043 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -21,7 +21,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0017 visualizo LIMPAR FILTROS
     Then M0017 visualizo APLICAR FILTROS
 
-  Scenario: M0017 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
+  Scenario: M0044 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -31,7 +31,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0017 visualizo a tabela SERIES
 
 #----------------------------------------PARAMETRO RESULTADOS GERAIS-------------------------------------#
-  Scenario: M0018 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
+  Scenario: M0045 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -48,7 +48,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0018 visualizo LIMPAR FILTROS
     Then M0018 visualizo APLICAR FILTROS
 
-  Scenario: M0018 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0046 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -59,7 +59,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0018 visualizo PERCENTUAL MEDIO DE ACERTOS TURMAS
 
 #-------------------------------------------PARAMETRO DESCRITORES----------------------------------------#
-  Scenario: M0019 05 - Validacao de FILTROS dentro do parametro DESCRITORES
+  Scenario: M0047 05 - Validacao de FILTROS dentro do parametro DESCRITORES
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -76,7 +76,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0019 visualizo LIMPAR FILTROS
     Then M0019 visualizo APLICAR FILTROS
 
-  Scenario: M0019 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0048 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -84,7 +84,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0019 visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
 
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: M0020 07 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: M0049 07 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -101,7 +101,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0020 visualizo LIMPAR FILTROS
     Then M0020 visualizo APLICAR FILTROS
 
-  Scenario: M0020 08 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: M0050 08 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -112,7 +112,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: M0021 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: M0051 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -126,7 +126,7 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0021 visualizo LIMPAR FILTROS
     Then M0021 visualizo APLICAR FILTROS
 
-  Scenario: M0021 10 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: M0052 10 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -135,13 +135,13 @@ Feature: Interecao e navegabilidade com persona Regional Apoio em seu menu como 
     And M0021 visualizO DETALHES
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: M0022 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: M0053 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
     And M0022 visualizo e clico em MATERIAIS DE APOIO
     And M0022 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: M0022 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: M0054 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona REGIONAL APOIO como mobile
     And visualizo e clico em PLANOS
     And M0022 visualizo e clico em MATERIAIS DE APOIO

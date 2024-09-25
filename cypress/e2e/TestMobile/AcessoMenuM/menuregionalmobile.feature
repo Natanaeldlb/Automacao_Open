@@ -4,7 +4,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
 
 #---------------------------------------AVALIAÇÕES DIAGNÓSTICAS-----------------------------------------#
 #----------------------------------------PARAMETRO PATICIPAÇOES-----------------------------------------#
-  Scenario: M0023 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
+  Scenario: M0031 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -21,7 +21,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0023 visualizo LIMPAR FILTROS
     Then M0023 visualizo APLICAR FILTROS
 
-  Scenario: M0023 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
+  Scenario: M0032 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -31,7 +31,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0023 visualizo a tabela ESCOLAS
 
 #----------------------------------------PARAMETRO RESULTADOS GERAIS-------------------------------------#
-  Scenario: M0024 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
+  Scenario: M0033 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -48,7 +48,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0024 visualizo LIMPAR FILTROS
     Then M0024 visualizo APLICAR FILTROS
 
-  Scenario: M0024 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0034 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -59,7 +59,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0024 visualizo PERCENTUAL MEDIO DE ACERTOS TURMAS
 
 #-------------------------------------------PARAMETRO DESCRITORES----------------------------------------#
-  Scenario: M0025 05 - Validacao de FILTROS dentro do parametro DESCRITORES
+  Scenario: M0035 05 - Validacao de FILTROS dentro do parametro DESCRITORES
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -76,7 +76,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0025 visualizo LIMPAR FILTROS
     Then M0025 visualizo APLICAR FILTROS
 
-  Scenario: M0025 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0036 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -84,7 +84,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0025 visualizo PERCENTUAL MEDIO DE ACERTOS ESCOLAS
 
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: M0026 07 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: M0037 07 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -101,7 +101,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0026 visualizo LIMPAR FILTROS
     Then M0026 visualizo APLICAR FILTROS
 
-  Scenario: M0026 08 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: M0038 08 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -112,7 +112,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: M0027 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: M0039 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -126,7 +126,7 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0027 visualizo LIMPAR FILTROS
     Then M0027 visualizo APLICAR FILTROS
 
-  Scenario: M0028 10 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: M0040 10 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -135,13 +135,13 @@ Feature: Interecao e navegabilidade com persona Regional em seu menu como mobile
     And M0028 visualizo DETALHES
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: M0029 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: M0041 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em PLANOS
     And M0029 visualizo e clico em MATERIAIS DE APOIO
     And M0029 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: M0029 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: M0042 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona REGIONAL como mobile
     And visualizo e clico em PLANOS
     And M0029 visualizo e clico em MATERIAIS DE APOIO

@@ -77,9 +77,9 @@ Feature: As oito personas validar sucesso e insucesso de login e recuperacao de 
     Given que acesso a tela de login com sucesso
     When visualizo e clico em REDEFINIR SENHA
     And sou direcionado a pagina de redefinição de senha
-    And preencho o campo Email institucional "ESCOLA"
+    And preencho o campo Email institucional "USERRESET"
     And visualizo e clico em REDEFINIR SENHA na tela de redefinir senha
-    Then tenho sucesso com recebimento de redefinir senha no email apontado
+    And clico em CONTINUAR dentro de redefinir senha
 
   Scenario: 04 - Usuario redefinir senha insucesso
     Given que acesso a tela de login com sucesso

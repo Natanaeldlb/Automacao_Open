@@ -33,8 +33,11 @@
       "password":"senha123!"
     },
     "USERFAIL": {
-      "username":"userfail@email.com.br",
-      "password":"senhafail!"
+      "username": "userfail@email.com.br",
+      "password": "senhafail!"
+    },
+    "USERRESET": {
+      "username": "diego.batina@opencircle.com.br"
     }
   }
 }

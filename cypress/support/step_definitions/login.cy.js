@@ -1,4 +1,4 @@
-import { Given, When, Then , And} from 'cypress-cucumber-preprocessor/steps';
+import {Given, When, Then , And} from 'cypress-cucumber-preprocessor/steps';
 import userFixture from '../../fixtures/users.json';
 import LoginPage from '../page_objects/login.page';
 

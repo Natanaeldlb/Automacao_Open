@@ -25,3 +25,7 @@ Then ('tenho sucesso com recebimento de redefinir senha no email apontado',() =>
 When('visualizo e clico em REDEFINIR SENHA na tela de redefinir senha', () => {
     resetPasswordPage.validateResetScreen();
 });
+When('clico em CONTINUAR dentro de redefinir senha',() => {
+    resetPasswordPage.buttonContinueReset();
+});
+

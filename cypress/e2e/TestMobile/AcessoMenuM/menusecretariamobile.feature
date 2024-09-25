@@ -4,7 +4,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
 
 #---------------------------------------AVALIAÇÕES DIAGNÓSTICAS-----------------------------------------#
 #----------------------------------------PARAMETRO PATICIPAÇOES-----------------------------------------#
-  Scenario: M0044 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
+  Scenario: M0055 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -21,7 +21,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0044 visualizo LIMPAR FILTROS
     Then M0044 visualizo APLICAR FILTROS
 
-  Scenario: M0044 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
+  Scenario: M0056 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -32,7 +32,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0044 visualizo e clico em DETALHES ESCOLAS
 
 #----------------------------------------PARAMETRO RESULTADOS GERAIS-------------------------------------#
-  Scenario: M0045 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
+  Scenario: M0057 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -50,7 +50,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0045 visualizo LIMPAR FILTROS
     Then M0045 visualizo APLICAR FILTROS
 
-  Scenario: M0045 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0058 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -62,7 +62,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0045 visualizo PERCENTUAL MEDIO DE ACERTOS SERIES
 
 #-------------------------------------------PARAMETRO DESCRITORES----------------------------------------#
-  Scenario: M0046 05 - Validacao de FILTROS dentro do parametro DESCRITORES
+  Scenario: M0059 05 - Validacao de FILTROS dentro do parametro DESCRITORES
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -80,7 +80,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0046 visualizo LIMPAR FILTROS
     Then M0046 visualizo APLICAR FILTROS
 
-  Scenario: M0046 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0060 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -90,7 +90,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0046 visualizo PERCENTUAL MEDIO DE ACERTOS ETAPAS
 
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: M0047 07 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: M0061 07 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -108,7 +108,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0047 visualizo LIMPAR FILTROS
     Then M0047 visualizo APLICAR FILTROS
 
-  Scenario: M0047 08 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: M0062 08 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -119,7 +119,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: M0048 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: M0063 09 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -134,7 +134,7 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0048 visualizo LIMPAR FILTROS
     Then M0048 visualizo APLICAR FILTROS
 
-  Scenario: M0048 10 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: M0064 10 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -144,13 +144,13 @@ Feature: Interecao e navegabilidade com persona Secretaria em seu menu como mobi
     And M0048 visualizo e clico em DETALHES VISAO POR ESCOLA
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: M0049 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: M0065 11 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em PLANOS
     And M0049 visualizo e clico em MATERIAIS DE APOIO
     And M0049 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: M0049 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: M0066 12 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona SECRETARIA como mobile
     And visualizo e clico em PLANOS
     And M0049 visualizo e clico em MATERIAIS DE APOIO

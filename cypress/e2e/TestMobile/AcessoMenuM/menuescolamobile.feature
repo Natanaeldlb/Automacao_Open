@@ -4,7 +4,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
 
 #---------------------------------------AVALIAÇÕES DIAGNÓSTICAS-----------------------------------------#
 #----------------------------------------PARAMETRO PATICIPAÇOES-----------------------------------------#
-  Scenario: M0009 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
+  Scenario: M0001 01 - Validacao de FILTROS dentro do parametro PARTICIPAÇOES
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -18,7 +18,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0009 visualizo LIMPAR FILTROS
     Then M0009 visualizo APLICAR FILTROS
 
-  Scenario: M0009 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
+  Scenario: M0002 02 - Validacao parametro PARTICIPAÇOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em PARTICIPACOES
@@ -28,7 +28,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0009 visualizo a tabela SERIES
 
 #----------------------------------------PARAMETRO RESULTADOS GERAIS-------------------------------------#
-  Scenario: M0010 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
+  Scenario: M0003 03 - Validacao de FILTROS dentro do parametro RESULTADO GERAIS
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -42,7 +42,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0010 visualizo LIMPAR FILTROS
     Then M0010 visualizo APLICAR FILTROS
 
-  Scenario: M0010 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0004 04 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em RESULTADOS GERAIS
@@ -53,7 +53,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0010 visualizo PERCENTUAL MEDIO DE ACERTOS TURMAS
 
 #-------------------------------------------PARAMETRO DESCRITORES----------------------------------------#
-  Scenario: M0011 05 - Validacao de FILTROS dentro do parametro DESCRITORES
+  Scenario: M0005 05 - Validacao de FILTROS dentro do parametro DESCRITORES
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -67,7 +67,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0011 visualizo LIMPAR FILTROS
     Then M0011 visualizo APLICAR FILTROS
 
-  Scenario: M0011 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
+  Scenario: M0006 06 - Validacao parametro RESULTADO GERAIS e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em DESCRITORES
@@ -76,7 +76,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0011 visualizo PERCENTUAL MEDIO DE ACERTOS ESTUDANTES
 
 #--------------------------------------PARAMETRO LISTA DE ESTUDANTES------------------------------------#
-  Scenario: M0012 07 - Validacao de FILTROS dentro do parametro LISTA DE ESTUDANTES
+  Scenario: M0007 07 - Validacao de FILTROS dentro do parametro LISTA DE ESTUDANTES
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em LISTA DE ESTUDANTES
@@ -90,7 +90,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0012 visualizo LIMPAR FILTROS
     Then M0012 visualizo APLICAR FILTROS
 
-  Scenario: M0012 08 - Validacao parametro LISTA DE ESTUDANTES e suas extensoes
+  Scenario: M0008 08 - Validacao parametro LISTA DE ESTUDANTES e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em LISTA DE ESTUDANTES
@@ -100,7 +100,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0012 visualizo e clico em DETALHES CODIGO DA HABILIDADE
 
 #-----------------------------------------PARAMETRO HISTÓRICO-------------------------------------------#
-  Scenario: M0013 09 - Validacao de FILTROS dentro do parametro HISTORICO
+  Scenario: M0009 09 - Validacao de FILTROS dentro do parametro HISTORICO
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -114,7 +114,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0013 visualizo LIMPAR FILTROS
     Then M0013 visualizo APLICAR FILTROS
 
-  Scenario: M0013 10 - Validacao parametro HISTORICO e suas extensoes
+  Scenario: M0010 10 - Validacao parametro HISTORICO e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em AVALIACOES
     And visualizo e clico em HISTORICO
@@ -125,7 +125,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
 
 #---------------------------------PLANO DE RECOMPOSIÇÃO DE APRENDIZAGEM---------------------------------#
 #-------------------------------------PARAMETRO CRIAR/EDITAR AÇÕES--------------------------------------#
-  Scenario: M0014 11 - Validacao parametro CRIAR EDITAR ACOES e suas extensoes
+  Scenario: M0011 11 - Validacao parametro CRIAR EDITAR ACOES e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em CRIAR EDITAR ACOES
@@ -133,7 +133,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0014 visualizo e valido campos em ETAPA 2 DE 2 PUBLICO ALVO
 
 #-----------------------------------------PARAMETRO ACOMPANHAR------------------------------------------#
-  Scenario: M0015 12 - Validacao de FILTROS dentro do parametro ACOMPANHAR
+  Scenario: M0012 12 - Validacao de FILTROS dentro do parametro ACOMPANHAR
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -148,7 +148,7 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0015 visualizo LIMPAR FILTROS
     Then M0015 visualizo APLICAR FILTROS
 
-  Scenario: M0015 13 - Validacao parametro ACOMPANHAR e suas extensoes
+  Scenario: M0013 13 - Validacao parametro ACOMPANHAR e suas extensoes
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em ACOMPANHAR
@@ -158,13 +158,13 @@ Feature: Interecao e navegabilidade com persona Escola em seus parametros dentro
     And M0015 visualizo e clico em DETALHES VISAO POR HABILIDADE
 
 #---------------------------------------PARAMETRO MATERIAIS DE APOIO------------------------------------#
-  Scenario: M0016 14 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
+  Scenario: M0014 14 - Validacao parametro MATERIAS DE APOIO e RECOMPOSICAO DE APRENDIZAGEM
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em MATERIAIS DE APOIO
     And M0016 visualizo e clico em RECOMPOSICAO DE APRENDIZAGEM
 
-  Scenario: M0016 15 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
+  Scenario: M0015 15 - Validacao parametro MATERIAS DE APOIO e METODOLOGIAS
     Given que acesso com sucesso a plataforma em persona ESCOLA como mobile
     And visualizo e clico em PLANOS
     And visualizo e clico em MATERIAIS DE APOIO
