@@ -166,14 +166,14 @@ Feature: Interecao e navegabilidade com persona Secretaria Apoio em seu menu com
     And M0071 visualizo ADMIN
 
 #--------------------------------------------PARAMETRIZAÇÕES-------------------------------------------#
-  Scenario: M0080 14 - Validacao parametro PARAMETRIZAÇÕES
+  Scenario: M0072 14 - Validacao parametro PARAMETRIZAÇÕES
     Given que acesso com sucesso a plataforma em persona SECRETARIA ADM como mobile
     And visualizo e clico em PARAMETRIZACOES
-    And visualizo Configuracoes Gerais
-    And visualizo Plano de Recomposicao
+    And M0072 visualizo Configuracoes Gerais
+    And M0072 visualizo Plano de Recomposicao
 #---------------------------------PARAMETRO BASES DO SISTEMA-------------------------------------------#
-  Scenario: W00801 15 - Validação parametro BASES DO SISTEMA
+  Scenario: W0073 15 - Validação parametro BASES DO SISTEMA
     Given que acesso com sucesso a plataforma em persona SECRETARIA ADM como web
-    And W00801 visualizo e clico em BASE ESCOLAR
-    And W00801 visualizo e clico em CURRICULAR
-    And W00801 visualizo e clico em RESULTADOS
+    And W0073 visualizo e clico em BASE ESCOLAR
+    And W0073 visualizo e clico em CURRICULAR
+    And W0073 visualizo e clico em RESULTADOS
