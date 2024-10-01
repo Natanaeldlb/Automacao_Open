@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ui-regression":"cypress run --spec cypress/e2e/**/*.feature",
+    "ui-regrission-allure": "cypress run --browser chrome --spec cypress/e2e/1-getting-started/**.js --env allure=true",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:report": "allure generate allure-results --clen -o allure-report",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true",
     "test": "echo \"Error: no test specified\" && exit 1",
     "e2e": "cypress run --env allure=true",
-    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "test:allure": "npm run e2e && npm run report:allure"
   },
   "keywords": [],
@@ -14,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "allure-commandline": "^2.29.0",
+    "allure-cypress": "^3.0.3",
     "cypress": "^13.13.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "save-dev": "^0.0.1-security"
@@ -22,6 +28,8 @@
     "nonGlobalStepDefinitions": false
   },
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.2"
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress": "^13.13.1"
   }
 }

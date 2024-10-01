@@ -6,7 +6,7 @@ export default class LoginElements {
   passwordInput() {
     return '[data-cy="ipt-password"]'
   }
-  continueButton() {
+  loginButton() {
     return '[data-cy="btn-login"]'
   }
   resetButton(){
@@ -20,9 +20,6 @@ export default class LoginElements {
   }
   screenHome() {
     return '[data-cy="btn-menu"]'
-  }
-  btnNotClick(){
-    return '[data-cy="btn-login"]'
   }
 }
 

@@ -6,7 +6,10 @@ const loginElements = new LoginElements();
 export default class LoginPage {
   visitPage(width = 1920, height = 1080) {
     cy.viewport(width, height);
+    //AMBIENTE DEV
     cy.visit('http://ec2-3-84-19-116.compute-1.amazonaws.com/auth/login');
+    //AMBIENTE HML
+    //cy.visit('http://ec2-100-25-136-234.compute-1.amazonaws.com/auth/login');
   }
   setEmailInput(email) {
     cy.get(loginElements.emailInput()).clear({force: true}).type(email)
@@ -15,7 +18,7 @@ export default class LoginPage {
     cy.get(loginElements.passwordInput()).clear({force: true}).type(password)
   }
   clickContinueButton() {
-    cy.get(loginElements.continueButton()).click({force: true});
+    cy.get(loginElements.loginButton()).click({force: true});
   }
   confirmHomeScreen() {
     cy.get(loginElements.screenHome()).click({force: true});
@@ -31,8 +34,9 @@ export default class LoginPage {
     cy.get(loginElements.resetButton()).click({force: true});
   }
   buttonNotClick() {
-    cy.wait( 2500);
-    cy.get(loginElements.btnNotClick).should('disabled');
+    cy.wait( 4000);
+    cy.get(loginElements.loginButton).should('not.be.enabled');
+
   }
 
 
