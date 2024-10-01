@@ -1,22 +1,14 @@
 const cucumber = require  ('cypress-cucumber-preprocessor').default;
 const { defineConfig } = require("cypress");
-const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+const { allureCypress } = require("allure-cypress/reporter");
 
 module.exports = defineConfig({
-  reporter: "cypress-mochawesome-reporter",
-  reporterOptions:{
-    charts: true,
-    reportPageTitle: "custom-title",
-    embeddedScreenshots: true,
-    inlineAssets: true,
-    saveAllAttempts: false,
-  },
-
   e2e: {
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber());
-      require("cypress-mochawesome-reporter/plugin")(on);
-      allureWriter(on, config);
+      allureCypress(on, config, {
+        resultsDir: "allure-results",
+      });
       return config;
     },
     specPattern: "cypress/e2e/**/*.feature",
