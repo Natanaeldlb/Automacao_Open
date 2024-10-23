@@ -21,5 +21,8 @@ export default class LoginElements {
   screenHome() {
     return '[data-cy="btn-menu"]'
   }
+  screenHomeMobile(){
+    return '[data-cy="mob-btn-menu"]'
+  }
 }
 

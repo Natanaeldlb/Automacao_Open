@@ -36,3 +36,6 @@ When('visualizo e clico em REDEFINIR SENHA', function () {
 Given('visualizo que o botao ACESSAR não esta clicavel',() =>  {
   loginPage.buttonNotClick();
 });
+Then('acesso com sucesso a plataforma em mobile', function () {
+  loginPage.buttonMobileMenu();
+});

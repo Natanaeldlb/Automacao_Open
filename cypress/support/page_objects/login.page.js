@@ -21,6 +21,7 @@ export default class LoginPage {
     cy.get(loginElements.loginButton()).click({force: true});
   }
   confirmHomeScreen() {
+    cy.wait( 4000);
     cy.get(loginElements.screenHome()).click({force: true});
   }
   logoutClick() {
@@ -36,7 +37,10 @@ export default class LoginPage {
   buttonNotClick() {
     cy.wait( 4000);
     cy.get(loginElements.loginButton).should('not.be.enabled');
-
+  }
+  buttonMobileMenu(){
+    cy.wait( 4000);
+    cy.get(loginElements.screenHomeMobile).click({force: true})
   }
 
 
