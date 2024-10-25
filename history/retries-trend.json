@@ -1,0 +1,11 @@
+[
+  {
+    "buildOrder": 1234,
+    "reportName": "Report #1234",
+    "reportUrl": "https://reports.example.com/1234",
+    "data": {
+      "run": 39,
+      "retry": 15
+    }
+  }
+]

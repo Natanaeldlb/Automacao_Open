@@ -7,9 +7,9 @@ export default class LoginPage {
   visitPage(width = 1920, height = 1080) {
     cy.viewport(width, height);
     //AMBIENTE DEV
-    cy.visit('http://ec2-3-84-19-116.compute-1.amazonaws.com/auth/login');
+    //cy.visit('http://ec2-3-84-19-116.compute-1.amazonaws.com/auth/login');
     //AMBIENTE HML
-    //cy.visit('http://ec2-100-25-136-234.compute-1.amazonaws.com/auth/login');
+    cy.visit('http://ec2-100-25-136-234.compute-1.amazonaws.com/auth/login');
   }
   setEmailInput(email) {
     cy.get(loginElements.emailInput()).clear({force: true}).type(email)
