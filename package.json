@@ -10,6 +10,9 @@
     "allure:sf": "allure generate --single-file allure-results",
     "test:allure": "npm run ui-regression && npm run report:allure"
   },
+
+  "screenshotOnRunFailure": true,
+  "video": false,
   "keywords": [],
   "author": "",
   "license": "ISC",
