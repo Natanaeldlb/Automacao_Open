@@ -1,0 +1,15 @@
+[
+  {
+    "buildOrder": 1234,
+    "reportName": "Report #1234",
+    "reportUrl": "https://reports.example.com/1234",
+    "data": {
+      "failed": 0,
+      "broken": 0,
+      "passed": 32,
+      "skipped": 0,
+      "unknown": 0,
+      "total": 32
+    }
+  }
+]

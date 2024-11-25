@@ -1,0 +1,25 @@
+{
+  "4da3226ec9761b158ba5f826fc8f8289": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "74556baed1daf783",
+        "reportUrl": "https://reports.example.com/1234",
+        "status": "failed",
+        "statusDetails": "AssertionError: Some fail reason\nassert False",
+        "time": {
+          "start": 1682358404995,
+          "stop": 1682358404995,
+          "duration": 0
+        }
+      }
+    ]
+  }
+}

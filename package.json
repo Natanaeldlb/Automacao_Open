@@ -1,0 +1,33 @@
+{
+  "name": "bdd-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui-regression": "cypress run --spec cypress/e2e/TestWeb/**/*.feature --env allure=true",
+    "e2e": "cypress run --env allure=true",
+    "report:allure": "allure serve allure-results",
+    "allure:sf": "allure generate --single-file allure-results",
+    "test:allure": "npm run ui-regression && npm run report:allure"
+  },
+  "screenshotOnRunFailure": true,
+  "video": false,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-cypress": "^3.0.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.32.0",
+    "cypress": "^13.15.0",
+    "cypress-cloud": "^1.11.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}

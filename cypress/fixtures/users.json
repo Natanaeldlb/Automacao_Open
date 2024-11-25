@@ -1,0 +1,20 @@
+{
+  "personas": {
+    "ESCOLA": {
+      "username": "escola@email.com.br",
+      "password": "senha123!"
+    },
+    "LOGINSIMPLES": {
+      "username": "dgaletti",
+      "password": "12345"
+    },
+    "USERFAIL": {
+      "username": "usuariofail",
+      "password": "12345"
+    },
+    "USERRESET": {
+      "username": "dgaletti@redegazeta.com.br"
+    }
+  }
+}
+
