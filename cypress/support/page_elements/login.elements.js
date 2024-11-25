@@ -1,19 +1,19 @@
 
 export default class LoginElements {
   emailInput() {
-    return '[data-cy="ipt-email"]'
+    return '[auth-cy="usernameInput"]'
   }
   passwordInput() {
-    return '[data-cy="ipt-password"]'
+    return '[auth-cy="passwordInput"]'
   }
   loginButton() {
-    return '[data-cy="btn-login"]'
+    return '[auth-cy="submit"]'
   }
   resetButton(){
-    return '[data-cy="btn-reset-password"]'
+    return '[auth-cy="submit"]'
   }
   notFound() {
-    return '.mat-mdc-snack-bar-action > .mat-mdc-button-touch-target'
+    return '[auth-cy="errorMessage"]'
   }
   logoutButton() {
     return '[data-cy="btn-logout"]'
@@ -23,6 +23,18 @@ export default class LoginElements {
   }
   screenHomeMobile(){
     return '[data-cy="mob-btn-menu"]'
+  }
+  resetLink() {
+    return '[auth-cy="forgotPassword"]'
+  }
+  screenForgotPassword() {
+    return '[auth-cy="passwordIcon"]'
+  }
+  emailInputReset() {
+    return '[auth-cy="emailInput"]'
+  }
+  confirmMessageSucessResetPassword() {
+    return '[auth-cy="teste"]'
   }
 }
 

@@ -1,4 +1,4 @@
-# ISG QA (Automação)
+# QA (Automação)
 ## Módulo de Recomposição de Aprendizagem
 ISG QA é o projeto onde estão escritos os testes E2E (Fim a Fim) vizando a qualidade de todo o código e integração correta.
 

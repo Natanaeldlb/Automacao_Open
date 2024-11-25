@@ -7,9 +7,9 @@ export default class LoginPage {
   visitPage(width = 1920, height = 1080) {
     cy.viewport(width, height);
     //AMBIENTE DEV
-    //cy.visit('http://ec2-3-84-19-116.compute-1.amazonaws.com/auth/login');
+    //cy.visit('https://dev-wc-live2.agazeta.com.br/login');
     //AMBIENTE HML
-    cy.visit('http://ec2-100-25-136-234.compute-1.amazonaws.com/auth/login');
+    cy.visit('https://dev-wc-live2.agazeta.com.br/login');
   }
   setEmailInput(email) {
     cy.get(loginElements.emailInput()).clear({force: true}).type(email)
@@ -31,7 +31,7 @@ export default class LoginPage {
     cy.wait( 2500);
     cy.get(loginElements.notFound()).click({force: true});
   }
-  clickRedefinirButton() {
+  clickResetButton() {
     cy.get(loginElements.resetButton()).click({force: true});
   }
   buttonNotClick() {
@@ -42,6 +42,20 @@ export default class LoginPage {
     cy.wait( 4000);
     cy.get(loginElements.screenHomeMobile).click({force: true})
   }
-
-
+  clickResetLink() {
+    cy.wait(4000);
+    cy.get(loginElements.resetLink()).click({force: true})
+  }
+  confirmScreenForgotPassword() {
+    cy.wait(4000);
+    cy.get(loginElements.screenForgotPassword().should('be.visible'))
+  }
+  setEmailReset() {
+    cy.wait(4000);
+    cy.get(loginElements.emailInputReset()).clear({force: true}).type(email)
+  }
+  confirmMessageResetSucess() {
+    cy.wait(4000);
+    cy.get(loginElements.confirmMessageSucessResetPassword().should('be.visible'))
+  }
 }

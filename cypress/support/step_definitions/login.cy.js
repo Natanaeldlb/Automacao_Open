@@ -24,14 +24,14 @@ When('clico em acessar', () => {
 Then('acesso com sucesso a plataforma', function () {
   loginPage.confirmHomeScreen();
 });
-Then('clico no incone logout para sair com sucesso da plataforma', function () {
+Then('clico no icone logout para sair com sucesso da plataforma', function () {
   loginPage.logoutClick();
 });
 Then('vejo a mensagem de NAO AUTORIZADO', function () {
   loginPage.userNotFound();
 });
 When('visualizo e clico em REDEFINIR SENHA', function () {
-  loginPage.clickRedefinirButton();
+  loginPage.clickResetButton();
 });
 Given('visualizo que o botao ACESSAR não esta clicavel',() =>  {
   loginPage.buttonNotClick();
@@ -39,3 +39,19 @@ Given('visualizo que o botao ACESSAR não esta clicavel',() =>  {
 Then('acesso com sucesso a plataforma em mobile', function () {
   loginPage.buttonMobileMenu();
 });
+And('clico no link esqueci a senha', () => {
+  loginPage.clickResetLink();
+});
+And('visualizo a pagina de redefinir a senha', () =>{
+  loginPage.confirmScreenForgotPassword();
+});
+When('eu clico e insiro no campo email como persona {string}', (persona) => {
+  const userEmail = userFixture.personas[persona].username
+  loginPage.setEmailReset(userEmail)
+});
+And('clico no botao resetar senha', () => {
+  loginPage.clickResetButton();
+})
+Then('devo visualizar a mensagem de sucesso', () => {
+  loginPage.confirmMessageResetSucess();
+})
