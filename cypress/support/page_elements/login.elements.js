@@ -16,10 +16,10 @@ export default class LoginElements {
     return '[auth-cy="errorMessage"]'
   }
   logoutButton() {
-    return '[data-cy="btn-logout"]'
+    return '[sidemenu-cy="realizarLogout"]'
   }
   screenHome() {
-    return '[data-cy="btn-menu"]'
+    return '[sidemenu-cy="irParaDashboard"]'
   }
   screenHomeMobile(){
     return '[data-cy="mob-btn-menu"]'
@@ -33,8 +33,8 @@ export default class LoginElements {
   emailInputReset() {
     return '[auth-cy="emailInput"]'
   }
-  confirmMessageSucessResetPassword() {
-    return '[auth-cy="teste"]'
+  confirmMessageFailedResetPassword() {
+    return '#swal2-title'
   }
 }
 

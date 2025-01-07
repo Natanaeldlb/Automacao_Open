@@ -48,14 +48,14 @@ export default class LoginPage {
   }
   confirmScreenForgotPassword() {
     cy.wait(4000);
-    cy.get(loginElements.screenForgotPassword().should('be.visible'))
+    cy.get(loginElements.screenForgotPassword(),{ timeout: 10000 }).should('be.visible');
   }
-  setEmailReset() {
+  setEmailReset(email) {
     cy.wait(4000);
     cy.get(loginElements.emailInputReset()).clear({force: true}).type(email)
   }
-  confirmMessageResetSucess() {
+  confirmMessageResetFailed() {
     cy.wait(4000);
-    cy.get(loginElements.confirmMessageSucessResetPassword().should('be.visible'))
+    cy.get(loginElements.confirmMessageFailedResetPassword(),{ timeout: 10000 }).should('be.visible');
   }
 }

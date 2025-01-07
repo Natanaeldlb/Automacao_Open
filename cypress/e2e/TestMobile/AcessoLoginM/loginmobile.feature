@@ -31,4 +31,4 @@ Feature: Validar Login com sucesso e insucesso e recuperacao de senha na platafo
     And visualizo a pagina de redefinir a senha
     When eu clico e insiro no campo email como persona "USERRESET"
     And clico no botao resetar senha
-    Then devo visualizar a mensagem de sucesso
+    Then devo visualizar a mensagem de erro

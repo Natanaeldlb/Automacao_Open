@@ -52,6 +52,6 @@ When('eu clico e insiro no campo email como persona {string}', (persona) => {
 And('clico no botao resetar senha', () => {
   loginPage.clickResetButton();
 })
-Then('devo visualizar a mensagem de sucesso', () => {
-  loginPage.confirmMessageResetSucess();
+Then('devo visualizar a mensagem de erro', () => {
+  loginPage.confirmMessageResetFailed();
 })

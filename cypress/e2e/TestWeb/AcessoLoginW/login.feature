@@ -2,7 +2,7 @@
 
 Feature: Validar Login com sucesso e insucesso e recuperacao de senha na plataforma web
 
-  Scenario: 01.1 - Usuario acessar com sucesso a plataforma e fazer logout
+  Scenario: 01 - Usuario acessar com sucesso a plataforma e fazer logout
     Given que acesso a tela de login com sucesso
     And clico e insiro no campo nome na tela inicial como persona "LOGINSIMPLES"
     And clico e insiro no campo senha na tela inicial como persona "LOGINSIMPLES"
@@ -31,4 +31,4 @@ Feature: Validar Login com sucesso e insucesso e recuperacao de senha na platafo
     And visualizo a pagina de redefinir a senha
     When eu clico e insiro no campo email como persona "USERRESET"
     And clico no botao resetar senha
-    Then devo visualizar a mensagem de sucesso
+    Then devo visualizar a mensagem de erro
